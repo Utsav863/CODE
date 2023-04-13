@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "PATTERN1.C": "cpp",
+    "ctype.h": "c"
+  },
+  "java.debug.settings.onBuildFailureProceed": true
+}
