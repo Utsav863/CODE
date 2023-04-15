@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 import java.util.*;
 class removeemail{
     public static void main(String[] args) {
