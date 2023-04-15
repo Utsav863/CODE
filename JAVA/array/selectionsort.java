@@ -1,3 +1,4 @@
+package array;
 import java.util.*;
 class selectiosort {
     public static void main(String[] args) {
