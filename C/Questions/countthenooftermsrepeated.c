@@ -1,19 +1,24 @@
 #include<stdio.h>
 int main()
 {
-    int arr[10]={0};
+    int n;
     printf("enter the no of array:");
-    scanf("%d",&arr);
+    scanf("%d",&n);
     int count=0;
     int i,maxcount=0;
-    for (i=0;i<arr;i++)
+    int a[n];
+    for (int i = 0; i < n; i++)
     {
-        if(arr[i]==arr[i+1])
+        scanf("%d", &a[i]);
+    }
+    for (i=0;i<n;i++)
+    {
+        if(a[i]==a[i+1])
             count+=1;
         maxcount=count;
         {
         if (maxcount>count){
-            printf("%d",arr[i]);}
+            printf("%d",a[i]);}
         }
     }
 }
